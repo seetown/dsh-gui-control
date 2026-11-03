@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop Control",
+    "description": "Read a Windows window's accessibility tree, act on controls by name with identity checks and delivery verdicts, and run repeatable desktop task files."
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "name":  "dsh-gui-control",
+    "version":  "0.1.0",
+    "description":  "Windows desktop control for DeepSeek Harness: read a window\u0027s accessibility tree, act with identity checks and delivery semantics, and run repeatable task files.",
+    "license":  "MIT",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./cordis.patch.yml":  "./cordis.patch.yml",
+                    "./locale/*.json":  "./locale/*.json",
+                    "./icon":  "./icon.svg",
+                    "./package.json":  "./package.json"
+                },
+    "files":  [
+                  "lib/index.js",
+                  "lib/scripts",
+                  "cordis.patch.yml",
+                  "locale/*.json",
+                  "icon.svg",
+                  "assets",
+                  "screenshots.json",
+                  "README.md",
+                  "LICENSE"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            },
+    "keywords":  [
+                     "dsh",
+                     "dsh-plugin",
+                     "deepseek-harness",
+                     "computer-use",
+                     "desktop-automation",
+                     "accessibility",
+                     "ui-automation",
+                     "windows",
+                     "gui-agent"
+                 ],
+    "engines":  {
+                    "node":  "^22.19.0 || \u003e=24.0.0"
+                },
+    "peerDependencies":  {
+                             "@deepseek-ai/dsh-tools":  "\u003e=0.1.5-rc.2 \u003c0.2.0 || \u003e=0.2.0-rc.1 \u003c0.3.0-0 || \u003e=0.2.1-0 \u003c0.3.0-0"
+                         },
+    "os":  [
+               "win32"
+           ],
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/seetown/dsh-gui-control.git"
+                   },
+    "homepage":  "https://github.com/seetown/dsh-gui-control#readme",
+    "bugs":  {
+                 "url":  "https://github.com/seetown/dsh-gui-control/issues"
+             }
+}
