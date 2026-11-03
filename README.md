@@ -8,7 +8,6 @@
 
 <p>
   <a href="https://www.npmjs.com/package/dsh-gui-control"><img alt="npm" src="https://img.shields.io/npm/v/dsh-gui-control.svg?color=cb3837"></a>
-  <a href="https://www.npmjs.com/package/dsh-gui-control"><img alt="downloads" src="https://img.shields.io/npm/dm/dsh-gui-control.svg"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows-0078d4.svg">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg">
   <a href="https://github.com/topics/dsh-plugin"><img alt="dsh-plugin" src="https://img.shields.io/badge/topic-dsh--plugin-6f42c1.svg"></a>
