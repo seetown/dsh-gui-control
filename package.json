@@ -1,6 +1,6 @@
-{
+﻿{
     "name":  "dsh-gui-control",
-    "version":  "0.1.0",
+    "version":  "0.1.1",
     "description":  "Windows desktop control for DeepSeek Harness: read a window\u0027s accessibility tree, act with identity checks and delivery semantics, and run repeatable task files.",
     "license":  "MIT",
     "type":  "module",
