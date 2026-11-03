@@ -20,6 +20,14 @@
 
 ---
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/seetown/dsh-gui-control/main/demo/0-hero.gif" width="820" alt="一句话把数据填进表格">
+
+</div>
+
+---
+
 ## 中文说明
 
 ### 它和别的桌面 Agent 有什么不同
